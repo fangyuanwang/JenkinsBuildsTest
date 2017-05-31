@@ -5,9 +5,9 @@ import org.junit.Test;
 public class DataStructureTest {
 
 	@Test
-	public void testGetValue() {
+	public void testGetName() {
 		DataStructure data = new DataStructure("", 0);
-		assertEquals("", data.getName());
+		assertEquals("1", data.getName());
 	}
 
 }
