@@ -17,7 +17,7 @@ public class DataStructureTest {
 	@Test
 	public void testGetValue() {
 		DataStructure data = new DataStructure("", 0);
-		assertEquals(0, data.getValue());
+		assertEquals(1, data.getValue());
 	}
 
 }
